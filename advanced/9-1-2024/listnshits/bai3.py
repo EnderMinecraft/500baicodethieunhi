@@ -1,0 +1,6 @@
+i = input("Dãy số: ")
+i = i.split()
+print("Giá trị lớn nhất: ", max(i))
+print("Vị trí của giá trị lớn nhất: ", i.index(max(i)))
+print("Giá trị nhỏ nhất: ", min(i))
+print("Vị trí của giá trị nhỏ nhất: ", i.index(min(i)))
